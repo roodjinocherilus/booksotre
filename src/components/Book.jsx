@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Book({ name, author, category, progress }) {
+function Book({
+  name, author, category, progress,
+}) {
   return (
     <div className="d-flex book px-4 py-4 rounded mb-5">
       <div style={{ width: '60%' }} className="d-flex justify-content-between">
